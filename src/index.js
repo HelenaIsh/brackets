@@ -13,6 +13,7 @@ module.exports = function check(str, bracketsConfig) {
         } else return false;
     }
 }
+
 function findRule(result, rules){
     for (let rule of rules) {
         if (result.includes(rule)) {
